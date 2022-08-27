@@ -18,6 +18,6 @@ To verify that the selenium-standalone-server is sitll running, open a browser a
 To re-execute the tests, you'll need todo the following:
 > netstat -ano | findstr :4444
 
-> taskkill /PID <PID> /F
+> taskkill /PID 00000 /F
 
-Replace <PID> with the PID from the process running on 4444
+Replace 00000 with the PID from the process running on 4444
